@@ -14,14 +14,9 @@ This project implements **global pairwise sequence alignment** using **dynamic p
 Ensure you have the following dependencies installed:
 
 ```bash
-pip install biopython numpy matplotlib nbconvert[webpdf] playwright
+pip install biopython numpy matplotlib 
 ```
 
-Additionally, install Playwright for `nbconvert` PDF conversion:
-
-```bash
-playwright install
-```
 
 ## Usage
 Run the Jupyter Notebook to:
@@ -29,10 +24,6 @@ Run the Jupyter Notebook to:
 2. Find **all optimal alignments**.
 3. Generate **visual representations** of the alignment process.
 
-To convert the notebook to PDF:
-```bash
-jupyter nbconvert --to webpdf Project_1.ipynb
-```
 
 ## Project Structure
 ```
@@ -41,11 +32,9 @@ Project_1/
 │   ├── seq1.fasta
 │   ├── seq2.fasta
 │── Project_1.ipynb
+│── Project_1.pdf
 │── README.md
-│── results/
-│   ├── dp_table.png
-│   ├── alignments.txt
 ```
 
 ## Access All Projects
-You can find all project folders here: [Project Repository](your_github_repo_link)
+You can find all project folders here: [Project Repository](https://github.com/sahmedAdnan/Bioinformatics)
