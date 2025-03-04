@@ -54,7 +54,15 @@ python illustrations.py 50 10
 - **Replications:** The experiments are repeated a specified number of times.
 - **Plots:** Two scatter plots are generated to compare the running times for linear and affine alignments.
 - **Sequence Lengths:** The script generates sequences with lengths ranging from a minimum (e.g., 10) to the specified maximum.
-Replications: Experiments are repeated for a specified number of replications.
-Plots: Two scatter plots are displayed comparing the running times for linear and affine alignments.
-Contributing
-Contributions to improve or extend the functionality of this project are welcome! Please submit issues or pull requests with detailed descriptions of your changes.
+- **Replications:** Experiments are repeated for a specified number of replications.
+- **Plots:** Two scatter plots are displayed comparing the running times for linear and affine alignments.
+
+## Contributing
+**Contributions to improve or extend the functionality of this project are welcome! Please submit issues or pull requests with detailed descriptions of your changes.**
+
+## Watch Guided Video
+[![Watch the video](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/Project%20Video/Screen%20Recording%202025-02-21%20171459.mp4)
+[![Watch the video](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/Project%20Video/Screen%20Recording%202025-02-21%20171459.mp4)
+
+
+
