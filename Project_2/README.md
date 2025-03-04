@@ -1,22 +1,25 @@
-DNA Sequence Alignment Tool
+## DNA Sequence Alignment Tool
+
+
 This project provides a suite of tools for performing global DNA sequence alignments using both linear and affine gap cost models. It is designed for both interactive use and batch evaluation, and it includes performance analysis capabilities.
 
-Features
-Global Linear Alignment: Implements the Needleman-Wunsch algorithm using a linear gap penalty model.
-Global Affine Alignment: Implements an affine gap penalty model with separate gap opening and extension penalties.
-Interactive Command-Line Interface: Users can input sequences manually or load sequences from FASTA files.
-Evaluation Module: Computes alignment scores between multiple sequences and presents the results as a score matrix.
-Performance Illustrations: Generates scatter plots to analyze and compare the running times of linear versus affine alignment algorithms.
-Project Structure
-bash
-Copy
+**Features**
+- Global Linear Alignment: Implements the Needleman-Wunsch algorithm using a linear gap penalty model.
+- Global Affine Alignment: Implements an affine gap penalty model with separate gap opening and extension penalties.
+- Interactive Command-Line Interface: Users can input sequences manually or load sequences from FASTA files.
+- Evaluation Module: Computes alignment scores between multiple sequences and presents the results as a score matrix.
+- Performance Illustrations: Generates scatter plots to analyze and compare the running times of linear versus affine alignment algorithms.
+
+
+**Project Structure**
+```bash
 .
 ├── main.py                # Interactive tool for sequence alignment (uses manual or FASTA input) :contentReference[oaicite:0]{index=0}
 ├── evaluation.py          # Script to compute and display alignment scores across multiple sequences :contentReference[oaicite:1]{index=1}
 ├── illustrations.py       # Generates performance plots for alignment algorithms :contentReference[oaicite:2]{index=2}
 ├── experiments/
 │   └── eval_score_matrix.txt  # Substitution score matrix used for alignments :contentReference[oaicite:3]{index=3}
-├── [other modules]        # Additional modules including common/io, common/utils, affine/alignment, and linear/alignment
+├── [other modules]        # Additional modules including common/io, common/utils, affine/alignment, and linear/alignment```
 Installation
 Clone the Repository:
 
