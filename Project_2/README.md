@@ -29,6 +29,9 @@ python main.py
 - **Gap Cost Methods:** Select between global linear or affine alignment.
 - **Display and Save Alignments:** View possible alignments and optionally save one in FASTA format.
 
+## Interface
+![Figure1](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/main_interface.png)
+
 ## Batch Evaluation (evaluation.py)
 **The evaluation script computes alignment scores for multiple sequences:**
 
@@ -40,29 +43,26 @@ python evaluation.py
 - Outputs score matrices for further analysis.
 - Performance Analysis (illustrations.py)
 
+![Figure2](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/evaluation.png)
+
 ## To analyze the running time performance of the alignment algorithms, run:
 
 ```bash
-python illustrations.py <max_sequence_length> <number_of_replications>
-```
-**For example:**
-```bash
-python illustrations.py 50 10
+python linear_time.py
+python affine_time.py
+python time_comparison.py 
 ```
 
-- **Sequence Lengths:** The script generates sequences with lengths ranging from a minimum (e.g., 10) to the specified maximum.
-- **Replications:** The experiments are repeated a specified number of times.
-- **Plots:** Two scatter plots are generated to compare the running times for linear and affine alignments.
-- **Sequence Lengths:** The script generates sequences with lengths ranging from a minimum (e.g., 10) to the specified maximum.
-- **Replications:** Experiments are repeated for a specified number of replications.
-- **Plots:** Two scatter plots are displayed comparing the running times for linear and affine alignments.
+![Figure3](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/linear/Figure_1(linear).png)
+![Figure4](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/affine/Figure_2(affine).png)
+![Figure5](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/Figure_3(comparison).png)
 
 ## Contributing
 **Contributions to improve or extend the functionality of this project are welcome! Please submit issues or pull requests with detailed descriptions of your changes.**
 
 ## Watch Guided Video
-[![Watch the video](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/Project%20Video/Screen%20Recording%202025-02-21%20171459.mp4)
-[![Watch the video](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/Project%20Video/Screen%20Recording%202025-02-21%20171459.mp4)
+![Watch the video](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/Project%20Video/Screen%20Recording%202025-02-21%20171459.mp4)
+![Watch the video](https://github.com/sahmedAdnan/Bioinformatics/blob/main/Project_2/Project%20Video/Screen%20Recording%202025-02-21%20171459.mp4)
 
 
 
