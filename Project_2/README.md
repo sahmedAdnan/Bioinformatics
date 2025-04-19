@@ -14,8 +14,9 @@ This project provides a suite of tools for performing global DNA sequence alignm
 Clone the Repository:
 
 ```bash
-git clone https://github.com/yourusername/DNA-Sequence-Alignment-Tool.git
+https://github.com/sahmedAdnan/Bioinformatics.git
 ```
+Then select project 2 
 
 ## Usage
 **Interactive Alignment (main.py)**
